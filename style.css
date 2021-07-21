@@ -1,0 +1,96 @@
+:root {
+  --pink: hsl(322, 100%, 66%);
+  --light-pink: hsl(321, 100%, 78%);
+  --light-red: hsl(0, 100%, 63%);
+  --dark-cyan: hsl(192, 100%, 9%);
+  --pale-blue: hsl(207, 100%, 98%);
+  --font-family-heading: "Poppins", sans-serif; /* 700 */
+  --font-family-body: "Open Sans", sans-serif; /* 400,600,700 */
+}
+
+/* Reset/Global */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--dark-cyan);
+  font-family: var(--font-family-body);
+  font-size: 0.875rem;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Helpers */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+.container-sm {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+.btn {
+    border: none;
+    cursor: pointer; 
+}
+.cta {
+    background-color: var(--pink);
+    color: white;
+    padding: 1rem 2.5rem;
+    border-radius: 1.5625rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    line-height: 1.125rem;
+}
+.cta:hover{
+    background-color: var(--light-pink);
+}
+
+/* Mobile/Default */
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    width: 6rem;
+    height: 1rem;
+}
+header .cta {
+    background: none;
+    color: var(--pink);
+    border: 1px solid var(--pink);
+    font-size: 0.625rem;
+    padding: 8px 18px;
+}
+header .cta:hover {
+    background: none;
+    opacity: 0.75;
+    transition: opacity 150ms ease-in;
+}
+
+
+
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 1024px){
+    
+}
