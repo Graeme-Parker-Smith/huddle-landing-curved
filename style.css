@@ -73,6 +73,24 @@ img {
 .cta:hover {
   background-color: var(--light-pink);
 }
+.semibold {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}
+.flex {
+  display: flex;
+}
+.flex-ai-c {
+  align-items: center;
+}
+.gap {
+  gap: 1rem;
+}
+.mb-24 {
+  margin-bottom: 1.5rem;
+}
 
 /* Mobile/Default */
 /* Header */
@@ -196,10 +214,53 @@ header .cta:hover {
 .footer p {
   margin-bottom: 2.5rem;
 }
-.footer input {
-  width: 100%;
+form {
+  text-align: right;
 }
- 
+input {
+  width: 320px;
+  height: 48px;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  border: none;
+  font-size: 14px;
+  line-height: 24px;
+  /* padding: 1rem; */
+}
+.subscribe {
+  width: 160px;
+  background: var(--pink);
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+input:focus {
+  border: 1px solid var(--light-red);
+  outline: none;
+}
+.footer__contact__content {
+  margin-left: 0.5rem;
+}
+.footer__phone img {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 3px 3px;
+}
+.footer__email img {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 4px 2px;
+}
+.footer__links ion-icon {
+  font-size: 23px;
+}
+.footer__links__item i {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
 
 /* Desktop Styles */
 @media only screen and (min-width: 1440px) {
