@@ -3,7 +3,7 @@
   --light-pink: hsl(321, 100%, 78%);
   --light-red: hsl(0, 100%, 63%);
   --dark-cyan: hsl(192, 100%, 9%);
-  --pale-blue: hsl(207, 100%, 98%);
+  --pale-blue: #808e9a;
   --font-family-heading: "Poppins", sans-serif; /* 700 */
   --font-family-body: "Open Sans", sans-serif; /* 400,600,700 */
 }
@@ -122,6 +122,32 @@ header .cta:hover {
 }
 .hero img {
   margin-bottom: 7.5rem;
+}
+
+/* Stats */
+.stats {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  /* width: 160px;
+  margin: 0 auto; */
+}
+.stats__stat {
+  margin: 45px;
+}
+.stats__stat img {
+  display: block;
+  text-align: left;
+}
+.stats__stat__number {
+  font-size: 3.8rem;
+  font-weight: bold;
+}
+.stats__stat__desc {
+  font-size: 0.9525rem;
+  color: var(--pale-blue);
 }
 
 /* Desktop Styles */
