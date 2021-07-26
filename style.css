@@ -352,6 +352,12 @@ input:focus {
     display: flex;
     justify-content: space-between;
   }
+  .footer .subscribe {
+    cursor: pointer;
+  }
+  .footer .subscribe:hover {
+    background-color: var(--light-pink);
+  }
   .footer__contact {
     flex: 0 0 342px;
   }
